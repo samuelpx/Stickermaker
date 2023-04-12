@@ -28,10 +28,11 @@ root.resizable(True, True)
 # Setting window size
 root.geometry(f'{window_width}x{window_height}+{center_x}+{center_y}')
 
+
 # Setting default icon
 # root.iconbitmap(".icopath")
 
-message = ttk.Label(root, text="Teste men")
+message = ttk.Label(root, text="Clique aqui se tiver coragem >:)")
 message.pack()
 
 
